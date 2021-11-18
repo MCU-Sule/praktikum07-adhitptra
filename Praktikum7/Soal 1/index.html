@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="author" content="Adhitya PPT 2172024">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 1 Praktikum 7</title>
+</head>
+<body>
+    <script>
+        let a=prompt("Berapa Mawar yang ingin dibeli? (Rp 5000)")
+        let b=prompt("Berapa Tulip yang ingin dibeli? (Rp 8000)")
+        let c=prompt("Berapa Anggrek yang ingin dibeli? (Rp 10000)")
+        let d=prompt("Uang yang dibayarkan adalah")
+        let total= a*5000 + b*8000 + c*10000
+        let kembalian= d-total
+
+        document.write ("Anda membeli Mawar sebanyak <b>" + a +" bunga </b>" + "dengan harga total Rp." + 5000*a + "<br>")
+        document.write ("Anda membeli Tulip sebanyak <b>" + b +" bunga </b>" + "dengan harga total Rp." + 8000*b + "<br>")
+        document.write ("Anda membelu Anggrek sebanyak <b>" + c +" bunga </b>" +"dengan harga total Rp." + 10000*c + "<br>")
+
+        if (d>=total) {
+            document.write ("Kembalian anda adalah Rp." + kembalian)
+        }
+        else {
+            document.write ("Uang anda tidak mencukupi")
+        }
+    </script>
+</body>
+</html>
